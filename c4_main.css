@@ -17,10 +17,9 @@ header h2 {
 header h3 {
 	font-size: 130%;
 	text-indent: 30px;
+	font-style:italic;
 }
-.shadow{
-	text-shadow: 2px 2px 1px grey;
-}
+
 /* the styles for the main content */
 main {
 	clear: left;
@@ -30,11 +29,12 @@ main h1 {
 }
 main h2 {
 	font-size: 130%;
+	cikir: #80000
 }
 main h3 {
 	font-size: 105%;
 }
-a:hover{
+main a:focus, main a:hover{
 	font-style: italic;
 }
 
@@ -42,3 +42,5 @@ a:hover{
 footer p{
 	text-align: center;
 }
+.shadow {
+	text-shadow: 1px 1px #800000;
